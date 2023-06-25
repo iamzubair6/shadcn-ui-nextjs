@@ -1,7 +1,7 @@
-import { Inter } from 'next/font/google';
+import { Orbitron } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Orbitron({ subsets: ['latin'], weight: ['400'] });
 
 export const metadata = {
   title: 'Games',

@@ -1,6 +1,6 @@
 import { Skeleton } from '@/components/ui/skeleton';
 
-export default function Loader() {
+export default function Loading() {
   return (
     <>
       <Skeleton className="bg-gray-200 opacity-5 h-20 w-1/2 flex  justify-center md:w-2/3 lg:w-3/4 xl:w-2/5 mt-6  mx-auto "></Skeleton>

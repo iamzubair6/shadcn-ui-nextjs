@@ -2,7 +2,8 @@ import Image from 'next/image';
 
 const getGameData = async () => {
   const response = await fetch(
-    'https://api.rawg.io/api/games?key=caf34253bdda4c7bad1268b82184f745'
+    'https://api.rawg.io/api/games?key=caf34253bdda4c7bad1268b82184f745',
+    { next: { revalidate: 0 } }
   );
   if (!response.ok) {
     throw new Error('Something went wrong');
